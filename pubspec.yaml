@@ -1,0 +1,92 @@
+name: master
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^10.7.0
+  firebase_core: ^2.27.0 
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.10.0
+  google_sign_in: ^6.1.1
+  shared_preferences: ^2.1.1
+  confetti: ^0.7.0
+  slide_countdown: ^0.3.4
+  youtube_player_iframe: ^2.0.0
+  path_provider: ^2.0.2
+  gallery_saver: ^2.0.10 
+  flutter_colorpicker: ^0.5.0
+  flutter_sequence_animation: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - image/logo.png
+    - image/indoor.jpg
+    - image/welcome.jpg
+    - image/googlelogo.png
+    - image/results.png
+    - image/dogorigami.jpg
+    - image/catorigami.jpg
+    - image/rabbitorigami.jpg
+    - image/tuliporigami.jpg
+    - image/pandaorigami.jpg
+    - image/butterflyorigami.jpg
+    - image/squirrelorigami.jpg
+    - image/boatorigami.jpg
+    - image/elephantorigami.jpg
+    - image/starorigami.jpg
+    - image/frogorigami.jpg
+    - image/craneorigami.jpg
+    - image/fishorigami.jpg
+    - image/tulipsorigami.jpg
+    - image/pigorigami.jpg
+    - image/heartorigami.jpg
+    - image/jarimage.png
+    - image/tree pose.jpg
+    - image/warrior pose.jpg
+    - image/sun salutation pose.jpg
+    - image/happy baby pose.jpg
+    - image/corpse pose.jpg
+    - image/bridge pose.jpg
+    - image/seated forward bend pose.jpeg
+    - image/mountain pose.jpeg
+    - image/cat cow pose.jpeg
+    - image/child pose.jpeg
+    - image/flyhigh.jpg
+    - image/parental.jpg
+    - image/signin3.jpg
+    - image/resultpic.jpg
+    - image/grey.jpeg
+    - image/macro.jpg
+    - image/homework.jpg
+    - image/agepic.jpg
+    - image/childpic.jpg
+    - image/parentalpic.jpg
+    - image/registerpic.jpg
+    - image/story1.jpg
+    - image/story2.jpg
+    - image/story3.jpg
+    - image/story4.jpg
+    - image/story5.jpg 
+    - image/story6.jpg 
+    - image/aboutpic.png
+    - image/PEEKABOOabout.png
+    - image/parentpic.png
+       
+fonts:
+  - family: Pacifico
+    fonts:
+      - asset: fonts/Pacifico-Regular.ttf
